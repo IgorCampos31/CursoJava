@@ -4,7 +4,7 @@ public class FuncaoIf1 {
 
     public static void main(String[] args) {
 
-        int num = 9;
+        int num = 10;
         if (num >= 10){
             System.out.println("O numero é maior que 10");
         }

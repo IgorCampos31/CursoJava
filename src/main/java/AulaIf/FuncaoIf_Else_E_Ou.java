@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class FuncaoIf_Else_E_Ou {
 
-    public static <string> void main(String[] args) {
+    public static void main(String[] args) {
         /*
         || - OU (ou um ou outro verdadeiro)
         && - E (os dois verdadeiros)
