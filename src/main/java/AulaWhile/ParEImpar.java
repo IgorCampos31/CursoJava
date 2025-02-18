@@ -6,7 +6,6 @@ public class ParEImpar {
 
     public static void main(String[] args) {
         int i, par, impar;
-        i = 0;
         par = 0;
         impar = 0;
 
