@@ -10,7 +10,7 @@ public class Medias {
         float n1, n2, media, somaMedias, mediaTurma;
 
         somaMedias = 0;
-        mediaTurma = 0;
+
 
         for(int contador = 1; contador<=3; contador++){
             aluno = JOptionPane.showInputDialog("Nome do Aluno");
