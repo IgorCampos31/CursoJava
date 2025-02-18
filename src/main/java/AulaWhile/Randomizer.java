@@ -14,7 +14,7 @@ public class Randomizer {
 
         //System.out.println(numero);
 
-        while(acertou==false){
+        while(!acertou){
             palpite = Integer.parseInt(JOptionPane.showInputDialog("Digite um número entre 0 e 100"));
 
             tentativas++;
