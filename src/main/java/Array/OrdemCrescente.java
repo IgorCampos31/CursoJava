@@ -2,9 +2,7 @@ package Array;
 
 import javax.swing.*;
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
+
 
 public class OrdemCrescente {
     public static void main(String[] args) {
