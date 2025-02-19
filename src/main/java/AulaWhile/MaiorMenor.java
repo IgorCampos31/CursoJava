@@ -9,9 +9,7 @@ public class MaiorMenor {
         boolean primeiro = true;
 
         numAtual = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
-
         maior = 0;
-        menor = 0;
 
         while(numAtual >= 0){
             if(numAtual > maior){
