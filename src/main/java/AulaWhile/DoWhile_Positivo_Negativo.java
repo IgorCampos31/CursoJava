@@ -5,7 +5,7 @@ import javax.swing.*;
 public class DoWhile_Positivo_Negativo {
     public static void main(String[] args) {
         int numero;
-        int positivo =0, negativo = 0, contador = 0;
+        int positivo =0, negativo = 0, contador;
 
 
         do{
