@@ -13,14 +13,14 @@ public class DoisArrays {
         System.out.println("Array 2: " + Arrays.toString(array2));
 
         //HashSet é uma coleção de itens onde cada item é unico e é encontrado no pacote java.util
-        HashSet<String> itensRepetidos = new HashSet<String>();
+        HashSet<String> itensRepetidos = new HashSet<>();
 
-        for(int i =0; i < array1.length; i++){
-            for (int k =0; k < array2.length - 1; k++){
+        for (String s : array1) {
+            for (int k = 0; k < array2.length - 1; k++) {
 
-                if(array1[i].equals(array2[k])){
+                if (s.equals(array2[k])) {
 
-                    itensRepetidos.add(array1[i]);
+                    itensRepetidos.add(s);
                 }
             }
 
